@@ -1,0 +1,48 @@
+@import "variables";
+.row-all {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 30px;
+  .pull-right{
+    color: $whiteColor;
+  }
+  &:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    height: 1px;
+    background: $whiteColor;
+    width: 100%;
+  }
+  .form-check  {
+    .form-check-input {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+    }
+    label {
+      color: $whiteColor;
+    }
+  }
+}
+.treeview-container {
+  .row-item, {
+    flex-wrap: nowrap;
+    display: flex;
+    font-size: 20px;
+    i.fa {
+      color: $whiteColor;
+    }
+    .form-check {
+      .form-check-input {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+      }
+      label {
+        color: $whiteColor;
+      }
+    }
+  }
+}

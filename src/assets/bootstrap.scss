@@ -1,0 +1,9 @@
+@import "variables";
+button.btn-primary{
+  background: $backgroundTree;
+  outline: none;
+  border: 0;
+  color: $whiteColor;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

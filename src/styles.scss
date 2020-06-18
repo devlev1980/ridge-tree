@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/treeview";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "assets/bootstrap";
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background: hsl(0, 1%, 84%);
+}

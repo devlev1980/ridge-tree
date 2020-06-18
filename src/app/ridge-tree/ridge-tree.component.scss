@@ -1,0 +1,27 @@
+@import "./src/assets/variables";
+.url-container{
+  max-width: 600px;
+  margin: 2rem auto;
+  .form-group{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .form-control{
+    display: inline-block;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+  }
+}
+
+.container{
+  max-width: 600px;
+  margin: 50px auto;
+  background: $backgroundTree;
+  padding: 1rem 3rem;
+  -webkit-box-shadow: 0 3px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 3px 14px -4px rgba(0,0,0,0.75);
+  box-shadow: 0 3px 14px -4px rgba(0,0,0,0.75);
+}
+
