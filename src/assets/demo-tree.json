@@ -12,7 +12,8 @@
           "children": [
             {
               "text": "Angular 1",
-              "value": 9111
+              "value": 9111,
+              "checked": false
             },
             {
               "text": "Angular 2",
@@ -30,7 +31,8 @@
           "children": [
             {
               "text": "C#",
-              "value": 9121
+              "value": 9121,
+              "checked": false
             },
             {
               "text": "Java",
@@ -55,7 +57,8 @@
         },
         {
           "text": "Security",
-          "value": 922
+          "value": 922,
+          "checked": false
         }
       ]
     }

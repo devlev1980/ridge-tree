@@ -1,14 +1,13 @@
-<div class="url-container">
-  <div class="form-group">
-    <input type="text" class="form-control" [(ngModel)]="url" name="url">
-    <button class="btn btn-primary" (click)="onChangeUrl()">Change</button>
-  </div>
-
-</div>
-
 <div class="container">
   <ngx-treeview
     [config]="treeConfig"
     [items]="itCategory">
   </ngx-treeview>
+</div>
+
+<div class="url-container">
+  <div class="form-group">
+    <input type="text" class="form-control" [(ngModel)]="url" name="url">
+    <button class="btn btn-primary" (click)="onChangeUrl()">Change</button>
+  </div>
 </div>

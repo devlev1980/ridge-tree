@@ -5,7 +5,7 @@ import {RidgeRoutingModule} from './ridge-routing.module';
 import {DropdownTreeviewComponent, TreeviewConfig, TreeviewI18n, TreeviewI18nDefault, TreeviewModule} from 'ngx-treeview';
 import {RigdeTreeService} from './rigde-tree.service';
 import {HttpClientModule} from '@angular/common/http';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -15,7 +15,8 @@ import {FormsModule} from '@angular/forms';
     RidgeRoutingModule,
     TreeviewModule.forRoot(),
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [RidgeTreeComponent],
   providers: [RigdeTreeService]

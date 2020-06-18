@@ -6,5 +6,6 @@ export interface ITree {
 interface IChild {
   text: string;
   value: number;
+  checked?: boolean;
   children?: IChild[];
 }

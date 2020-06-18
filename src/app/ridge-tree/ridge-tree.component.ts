@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnDestroy, OnInit} from '@angular/core';
 import {RigdeTreeService} from './rigde-tree.service';
-import {TreeviewItem} from 'ngx-treeview';
+import {TreeviewConfig, TreeviewItem} from 'ngx-treeview';
 import {ITree} from './models/tree';
 import {Subscription} from 'rxjs';
 
@@ -14,12 +14,13 @@ import {Subscription} from 'rxjs';
 export class RidgeTreeComponent implements OnInit, OnDestroy {
 
   itCategory: TreeviewItem[] = [];
-  treeConfig = {
+  treeConfig: TreeviewConfig = {
     hasAllCheckBox: true,
     hasFilter: false,
     hasCollapseExpand: true,
     decoupleChildFromParent: false,
-    maxHeight: 500
+    maxHeight: 500,
+    hasDivider: true
   };
   sub: Subscription;
   url: string = '';
